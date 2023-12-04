@@ -11,7 +11,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    animation: fadeIn 1s ease-in-out; 
+    animation: fadeIn .6s ease-in-out; 
+
 }
 
 @keyframes fadeIn {
@@ -22,7 +23,9 @@ body {
         opacity: 1;
     }
 }
-
+.container{
+    height: 100vh;
+}
 header {
     padding-left: 50px;
     padding-right: 50px;
@@ -42,13 +45,19 @@ ul {
 
 ul li {
     margin-left: 25px;
+    
+}
+ul li a {
+    text-decoration: none;
+    color:#000000;
     transition: all .2s;
 }
 
-li:hover {
-    border-bottom: 4px solid #75717a;
+li a:hover {
     border-radius: 10px;
-    padding-top: 2px;
+    background-color: #97862A;
+    padding: 15px 20px;
+    color: white;
 }
 
 .logo {
@@ -87,7 +96,8 @@ li:hover {
 
 .school-name .yellow-text {
     color: #97862A;
-    font-family: 'Road Rage', sans-serif;
+    /* font-family: 'Road Rage', sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .school-description {
@@ -135,7 +145,8 @@ li:hover {
 .homepage-image {
     position: absolute;
     top: 0;
-    margin-left: 36rem;
-    margin-top: 9.5rem;
-    width: 800px;
+    margin-left: 33rem;
+    margin-top: 5rem;
+    width: 900px;
 }
+

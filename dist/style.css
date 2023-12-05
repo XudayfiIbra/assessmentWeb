@@ -187,15 +187,15 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 100px;
+  height: 100px;
 }
 
 .logo-title {
   display: flex;
   flex-direction: column;
-  line-height: 1.25;
-  margin-left: 0.75rem;
+  line-height: .8;
+  margin-left: 0.3rem;
 }
 .logo-title span:first-child {
   color: var(--c-text-primary);
@@ -213,6 +213,7 @@ a {
 .navigation a {
   display: flex;
   align-items: center;
+
   text-decoration: none;
   transition: 0.25s ease;
 }
